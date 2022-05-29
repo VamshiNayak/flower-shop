@@ -1,0 +1,38 @@
+<html>
+<head>
+<title>create a account</title>
+</head>
+<body>
+    <form>
+		     <fieldset>
+			             
+			           
+			               <center>
+						   
+						     <h1>CREATE ACCOUNT</h1>
+							 
+							 <br><br>
+						          <label for "name">NAME</label>
+								  <input type="text" id="Name" placeholder="ENTER YOUR NAME" required>
+								  <br><br>
+						          <label for "email id">EMAIL ID</label>
+								  <input type="text" id="email id" placeholder="ENTER YOUR Email Id" required>
+								  <br><br>
+								  <label for "mobile">MOBILE</label>
+								  <input type="number" id="mobile" placeholder="ENTER YOUR Mobile" required>
+								  <br><br>
+								  <label for "create password">CREATE PASSWORD</label>
+								  <input type="password" id="create password" placeholder="CREATE PASSWORD">
+								  <br><br>
+								  <label for "conform password">CONFORM PASSWORD</label>
+								  <input type="password" id="conform password" placeholder="ENTER CONFORM PASSWORD">
+								  <br><br>
+								 <a href="mylogin.html" button type="button" class="btn btn-primary" onclick="register()">Register</button></a>
+						  
+						  </center>					
+			
+			 </fieldset>											
+	
+	</form>
+</body>
+</html>

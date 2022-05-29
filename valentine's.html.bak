@@ -1,0 +1,185 @@
+<html>
+<head>
+<title>FLOWER SHOPE STORE</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+<body>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+   
+   <nav class="navbar navbar-expand-lg navbar-dark bg-light1" style="background-color:orange">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Flower Shop</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link " aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="valentine's.html">Valantance</a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link" href="anniversary.html">Anniversary</a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link" href="birthday.html">Birthday</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<fieldset>
+<div>
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <div class="card h-100">
+      <img src="C:\Users\jatot\Dropbox\PC\Downloads\love rose.jpeg" style="height:54%" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Heart Roses</h5>
+        <p class="card-text">This beautiful flower vase contains: 55 pink Roses 14 White rose Glass vase Note: Actual design and combomight differ based on Heart, seasonal elements and ingredient</p>
+		<h1>Rs:3500<h1>
+		<a href="#" class="btn btn-danger">&nbsp <input type="button" onclick="incrementValue()" value=" Add to Cart" />&nbsp See Details >>></a>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="C:\Users\jatot\Dropbox\PC\Downloads\I-Love-You-Heart_900x.webp" style="height:54%" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">I Love You Heart</h5>
+        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+		<h1>Rs:2000<h1>
+		<a href="#" class="btn btn-danger">&nbsp <input type="button" onclick="incrementValue()"  value="Add to Cart" />&nbsp See Details >>></a>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="C:\Users\jatot\Dropbox\PC\Downloads\rosy-elegance-bouquet_1.webp" style="height:54%" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Rosy-elegance-bouque</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+		<h1>Rs:2200<h1>
+		<a href="#" class="btn btn-danger">&nbsp <input type="button" onclick="incrementValue()" value="Add to Cart" />&nbsp See Details >>></a>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>  
+</div>
+</div>
+<!-- set 2 starts -->
+
+<div class="col">
+    <div class="card h-100">
+      <img src="C:\Users\jatot\Dropbox\PC\Downloads\red-roses-arrangement-with-love-tag-teddy_1.jpg"  style="height:54%" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">TEDDY ROSE GROUP FLOWER</h5>
+        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+		<h1>Rs:2500<h1>
+		<a href="#" class="btn btn-danger">&nbsp <input type="button" onclick="incrementValue()" value="Add to Cart" />&nbsp See Details >>></a>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col">
+    <div class="card h-100">
+      <img src="C:\Users\jatot\Dropbox\PC\Downloads\rose.jpg" style="height:54%" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">RED ROSE FLOWER</h5>
+        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+		<h1>Rs:2000<h1>
+		<a href="#" class="btn btn-danger">&nbsp <input type="button" onclick="incrementValue()" value="Add to Cart" />&nbsp See Details >>></a>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col">
+    <div class="card h-100">
+      <img src="C:\Users\jatot\Dropbox\PC\Downloads\Best-Flowers-For-Fathers-Day_900x.webp" style="height:54%" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">YELLOW ROSE FLOWER</h5>
+        <p class="card-text">
+This beautiful flower vase contains: 15 Yellow Roses 15 White rose Glass vase Note: The photos are indicative only. Actual design and combomight differ based on chef, seasonal elements and ingredient
+		<h1>Rs:1000<h1> 
+		<a href="#" class="btn btn-danger">&nbsp <input type="button" onclick="incrementValue()" value="Add to Cart" />&nbsp See Details >>></a>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+  <!--3rd row -->
+  <div class="col">
+    <div class="card h-100">
+      <img src="C:\Users\jatot\Dropbox\PC\Downloads\red-roses-in-personalised-in-love-mug_1.webp"  style="height:54%" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">RED-roses</h5>
+        <p class="card-text">product Details: 5 Red Roses tea cup Packing Beautiful Ribbon Bow Seasonal Fillers For beloved ones in your life, who are always there with you in all ups and downs of your life. For them, we have a...</p>
+		<h1>Rs:1200<h1>
+		<a href="#" class="btn btn-danger">&nbsp <input type="button" onclick="incrementValue()" value="Add to Cart" />&nbsp See Details >>></a>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col">
+    <div class="card h-100">
+      <img src="C:\Users\jatot\Dropbox\PC\Downloads\mixed-roses-romantic-bunch_1.jpg"  style="height:54%" alt="...">
+      <div class="card-body">
+        <h5 class="card-title"> mixed RED FLOWER</h5>
+        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+		<h1>Rs:1500<h1>
+		<a href="#" class="btn btn-danger">&nbsp <input type="button" onclick="incrementValue()" value="Add to Cart" />&nbsp See Details >>></a>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col">
+    <div class="card h-100">
+      <img src="C:\Users\jatot\Dropbox\PC\Downloads\valentance1.png"   style="height:54%" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">P SHAPE RED FLOWER</h5>
+        <p class="card-text">product Detail: Bunch of Red Roses  Packing Beautiful Ribbon Bow Seasonal Fillers For beloved ones in your life, who are always there with you in all ups and downs of your life. For them, we have a...</p>
+		<h1>RS:1000</h1>
+		<a href="#" class="btn btn-danger">&nbsp <input type="button" onclick="incrementValue()" value="Add to Cart" />&nbsp See Details >>></a>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+  
+</div>
+</fieldset>
+<body>
+</html>
